@@ -1,6 +1,8 @@
 /* Guess a number Game
 written 2/5/2018 by Rich Lewis */
 
+function playGame() {
+  
 var guessNum;
 var guessRight = "You guessed it right!";
 var guessLow = "You guessed too low!  Try again.";
@@ -18,3 +20,4 @@ guessNum = prompt("Please guess a number between 1 and 100");
   }
 }
 alert(guessRight);
+}
